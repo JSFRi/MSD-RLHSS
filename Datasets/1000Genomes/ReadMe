@@ -1,0 +1,3 @@
+This folder includes all information related to the 1000 Genomes dataset we use in the experiments.
+
+1000_Genomes_phase_3_release.tsv is the table for information of the overall 3115 samples, for more details please direct to the homepage of 1000 Genomes project <https://www.internationalgenome.org/data>. The dataset we used is from the phrase 3 of the 1000 Genomes project, it is available through <https://ftp-trace.ncbi.nih.gov/1000genomes/ftp/release/20130502/>
