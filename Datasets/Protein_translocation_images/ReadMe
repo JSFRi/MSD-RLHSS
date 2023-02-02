@@ -1,0 +1,7 @@
+This directory is about the Protein Translocation Dataset we mentioned in the paper. 
+
+The dataset originally comes from the BBBC013 banchmarking images, available at https://bbbc.broadinstitute.org/BBBC013 . 
+
+PT_1056.csv is the table containing all informations of the 1056 files in the dataset. 
+
+The folder Requests_intr90/ includes the requests of 1000 iterations in the analysis experiment we described in the paper. Requests in each iteration is recorded by a table in the form of csv file, files with column 'request' = 1 are requested in that iteration.
