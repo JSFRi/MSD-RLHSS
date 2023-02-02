@@ -1,0 +1,5 @@
+This repository contains the data migration policies we used in the article.
+
+RL_class/ includes the classes and functions related with RL-based policy. env.py defines the enviroment class, and the functions related with environments. agent.py defines the RL agents, and functions including calculation of the value function, parameter updating via TD(\lambda), and etc. Notice that for each dataset, RL-based policy is defined differently, thus there are seperate folders under the RL_class/.
+
+LRU/ includes the implementation of Least Recently Used replacement, LFU/ for Least Frequently Used replacement, and K-means/ for K-means policy.
