@@ -1,0 +1,3 @@
+This folder contains the related information about the Airfoil angle of attack mesh dataset.
+
+File Msh3100.csv is the table of files information in the dataset we use in the article. One could generate new mesh files using different geometries or parameters using runme.sh to first generate .geo files, and transform the .geo files to .msh mesh files using naca2gmsh_geo.py.
