@@ -7,9 +7,8 @@
 ## Table of Contents
 
 + [About](#about)
-    + [Code Locations](#codeloc)
-    + [Poster & Extended Abstract](#docloc)
-    + [Information About The Dataset](#datasetinfo)
++ [Code Locations](#codeloc)
++ [Datasets](#Datasets)
 + [Getting Started](#getting_started)
     + [Prerequisites](#prerequisites)
 + [Setting Up](#installing)
@@ -18,7 +17,11 @@
     + [Running Jupyter](#jupyter)
 + [Acknowledgments](#acknowledgments)
 
-This repository contains the codes for deploying the three-tier HSS (Hierarchical Storage System), implementing 6 migration policies, and running experiments on 4 scientific datasets that we introduced in our paper.
+## About
+
+This repository contains the codes for deploying the three-tier HSS (Hierarchical Storage System), implementing 6 migration policies, running experiments on the 4 scientific datasets, and generating the results that we introduced in our paper.
+
+## Code Locations
 
 Folder Cloud_dep/ includes the steps to start three instances based on the openstack platform of SNIC Science Cloud (SSC). The three instances are assigned with different sizes and I/O speeds, to act as the three tiers in the HSS.
 
@@ -26,6 +29,9 @@ Policies/ is the folder of all codes of implementing 6 migration policies: RL-ba
 
 Datasets/ contains brief summary of the 4 scientific datasets.
 
-## Acknowledements
+## Datasets
+
+
+## Acknowledgments
 
 This research is supported by the Swedish Foundation for Strategic Research (SSF), project HASTE, under Grant No. 𝐵𝐷15 − 0008. We would also like to acknowledge Swedish National Infrastructure for Computing (SNIC) for providing cloud resources, project number 𝑆𝑁𝐼𝐶 2022/22 − 835 , and support from eSSENCE, a Swedish strategic collaborative research program in e-science.
