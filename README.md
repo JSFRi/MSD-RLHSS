@@ -11,8 +11,7 @@
 + [Datasets](#Datasets)
 + [Getting Started](#getting_started)
     + [Prerequisites](#Prerequisites)
-+ [Setting Up](#installing)
-+ [Running the code](#run_locally)
++ [Cloud deployment](#Cloud deployment)
 + [Acknowledgments](#acknowledgments)
 
 ## About
@@ -25,10 +24,13 @@ Folder Cloud_dep/ includes the steps to start three instances based on the opens
 
 Policies/ is the folder of all codes of implementing 6 migration policies: RL-based policy, Random Placement, Least Recently Used replacement (LRU), Least Frequently Used replacement (LFU), Maximal/minimal feature policy, and K-means policy. Implementation of each policy is under the folder with the same name of the policy.
 
-Datasets/ contains brief summary of the 4 scientific datasets.
+[Datasets/](Datasets) contains brief summary of the 4 scientific datasets.
+
+Results/ includes the results of experiments upon the 4 datasets, in the form of Jupyter notebook. Each notebook contains some breif information about the corresponding dataset, and the results in terms of system response time and etc.
 
 ## Datasets
 
+See [Datasets/](Datasets) for more details
 
 ## Getting Started
 
