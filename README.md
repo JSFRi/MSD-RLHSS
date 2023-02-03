@@ -7,16 +7,16 @@
 ## Table of Contents
 
 + [About](#about)
-+ [Code Locations](#Code Locations)
++ [Code Locations](#codeloc)
 + [Datasets](#Datasets)
-+ [Cloud deployment](#Cloud deployment)
++ [Cloud deployment](#clouddep)
 + [Acknowledgments](#acknowledgments)
 
 ## About
 
 This repository contains the codes for deploying the three-tier HSS (Hierarchical Storage System), implementing 6 migration policies, running experiments on the 4 scientific datasets, and generating the results that we introduced in our paper.
 
-## Code Locations
+## Code Locations <a name = "codeloc"></a>
 
 Folder [Cloud_dep/](Cloud_dep) includes the steps to start three instances based on the openstack platform of SNIC Science Cloud (SSC). The three instances are assigned with different sizes and I/O speeds, to act as the three tiers in the HSS.
 
@@ -30,7 +30,7 @@ Folder [Cloud_dep/](Cloud_dep) includes the steps to start three instances based
 
 See [Datasets/](Datasets) for more details
 
-## Cloud deployment
+## Cloud deployment <a name = "clouddep"></a>
 
 To start the 3-tier HSS on openstack platform, run [start_instances_3tier.py](Cloud_dep/start_instances_3tier.py). If one want to set up different configurations, modify the -cfg.txt files.
 
