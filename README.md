@@ -7,14 +7,12 @@
 ## Table of Contents
 
 + [About](#about)
-+ [Code Locations](#codeloc)
++ [Code Locations](#Code Locations)
 + [Datasets](#Datasets)
 + [Getting Started](#getting_started)
-    + [Prerequisites](#prerequisites)
+    + [Prerequisites](#Prerequisites)
 + [Setting Up](#installing)
 + [Running the code](#run_locally)
-    + [Configuration](#configuration)
-    + [Running Jupyter](#jupyter)
 + [Acknowledgments](#acknowledgments)
 
 ## About
@@ -30,6 +28,9 @@ Policies/ is the folder of all codes of implementing 6 migration policies: RL-ba
 Datasets/ contains brief summary of the 4 scientific datasets.
 
 ## Datasets
+
+
+## Getting Started
 
 
 ## Acknowledgments
