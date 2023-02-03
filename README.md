@@ -9,8 +9,6 @@
 + [About](#about)
 + [Code Locations](#Code Locations)
 + [Datasets](#Datasets)
-+ [Getting Started](#getting_started)
-    + [Prerequisites](#Prerequisites)
 + [Cloud deployment](#Cloud deployment)
 + [Acknowledgments](#acknowledgments)
 
@@ -20,20 +18,21 @@ This repository contains the codes for deploying the three-tier HSS (Hierarchica
 
 ## Code Locations
 
-Folder Cloud_dep/ includes the steps to start three instances based on the openstack platform of SNIC Science Cloud (SSC). The three instances are assigned with different sizes and I/O speeds, to act as the three tiers in the HSS.
+Folder [Cloud_dep/](Cloud_dep) includes the steps to start three instances based on the openstack platform of SNIC Science Cloud (SSC). The three instances are assigned with different sizes and I/O speeds, to act as the three tiers in the HSS.
 
-Policies/ is the folder of all codes of implementing 6 migration policies: RL-based policy, Random Placement, Least Recently Used replacement (LRU), Least Frequently Used replacement (LFU), Maximal/minimal feature policy, and K-means policy. Implementation of each policy is under the folder with the same name of the policy.
+[Policies/](Policies) is the folder of all codes of implementing 6 migration policies: RL-based policy, Random Placement, Least Recently Used replacement (LRU), Least Frequently Used replacement (LFU), Maximal/minimal feature policy, and K-means policy. Implementation of each policy is under the folder with the same name of the policy.
 
 [Datasets/](Datasets) contains brief summary of the 4 scientific datasets.
 
-Results/ includes the results of experiments upon the 4 datasets, in the form of Jupyter notebook. Each notebook contains some breif information about the corresponding dataset, and the results in terms of system response time and etc.
+[Results/](Results) includes the results of experiments upon the 4 datasets, in the form of Jupyter notebook. Each notebook contains some breif information about the corresponding dataset, and the results in terms of system response time and etc.
 
 ## Datasets
 
 See [Datasets/](Datasets) for more details
 
-## Getting Started
+## Cloud deployment
 
+To start the 3-tier HSS on openstack platform, run [start_instances_3tier.py](Cloud_dep/start_instances_3tier.py). If one want to set up different configurations, modify the -cfg.txt files.
 
 ## Acknowledgments
 
