@@ -1,4 +1,4 @@
-# MSD-RLHSS: Management of Scientific Datasets in Reinforcement Learning based Hierarchical Storage System
+# MSD-RLHSS: Data Management of Scientific Applications in a Reinforcement Learning-Based Hierarchical Storage System
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
